@@ -6,6 +6,8 @@
 
 html{
   font-size: 62.5%;
+  scroll-behavior: smooth;
+  transition: all 2s ease;
 }
 
 body{
@@ -18,6 +20,10 @@ body{
 section{
   /* padding-top: 18.8rem; */
   padding-bottom: 18.8rem;
+}
+
+section:last-child{
+  padding-bottom: 10rem;
 }
 
 .container{
