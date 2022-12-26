@@ -34,7 +34,7 @@
   }
 
   .img:after{
-    left: 18%;
+    left: 20.5%;
     top: -11%;
     width: 50rem;
     height: 50rem;
@@ -50,9 +50,9 @@
 
 }
 
-@media (max-width: 56em){
+@media (max-width: 53em){
   .img:after{
-    left: 15%;
+    left: 17%;
   }
 
   .skills{
@@ -73,13 +73,13 @@
 
 @media (max-width: 50em){
   .img:after{
-    left: 9.5%;
+    left: 15.5%;
   }
 }
 
 @media (max-width: 46em){
   .img:after{
-    left: 3.5%;
+    left: 12.5%;
   }
 
   .primary-heading{
@@ -91,42 +91,27 @@
   } */
 }
 
-@media (max-width: 41em){
+@media (max-width: 44em){
   .img:after{
-    left: 0;
+    left: 10%;
   }
 
   .project-card{
     grid-template-columns: 1fr;
   }
 
-  .skills{
-    display: none;
-  }
-
 }
 
-@media (max-width: 38em){
+@media (max-width: 41em){
   .img:after{
-    left: -3%;
-  }
-
-  .skills-l{
-    padding-right:0 8rem;
+    left: 6%;
   }
 }
 
-@media (max-width: 34em){
-  .img:after{
-    left: -11%;
-  }
+@media (max-width: 37em){
 
   .project-description{
     padding-right: 12.6rem;
-  }
-
-  .skills-container{
-    padding-right: 8.6rem;
   }
 
   .about-details{
@@ -138,12 +123,40 @@
   }
 
   .img:after{
-    left: 4%;
+    left: 17%;
     top: -5%;
     width: 35rem;
     height: 35rem;
   }
 
+}
+
+@media (max-width: 35em){
+  .img:after{
+    left: 13%;
+  }
+}
+
+/* @media (max-width: 25em){
+  .img:after{
+    left: 5%;
+  }
+} */
+
+@media (max-width: 28em){
+  .img:after{
+    left: 0%;
+  }
+
+  .contact-d-text{
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 25em){
+  .img:after{
+    left: -4%;
+  }
 }
 
 

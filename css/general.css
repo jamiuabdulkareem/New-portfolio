@@ -46,3 +46,11 @@ section{
   color: #3B1136;
   margin-top: 2.4rem;
 }
+
+.descriptions{
+  font-size: 1.8rem;
+  /* width: 45rem; */
+  white-space: pre-line;
+  line-height: 1.8;
+  margin-top: 1.6rem;
+}

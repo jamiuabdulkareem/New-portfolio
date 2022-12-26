@@ -236,14 +236,6 @@ a:visited{
 /* PROJECT SECTION */
 /*******************/
 
-.project-description{
-  width: 55rem;
-  font-size: 1.4rem;
-  line-height: 1.4;
-  line-break: anywhere;
-  margin-top: 3.2rem;
-}
-
 .project-card{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -308,6 +300,7 @@ a:visited{
 .skills{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 8rem;
 }
 
 /* .skills-progress{
@@ -374,13 +367,6 @@ a:visited{
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 8rem;
-}
-
-.description{
-  font-size: 1.4rem;
-  line-height: 1.4;
-  line-break: anywhere;
-  margin-top: 4.8rem;
 }
 
 .contact-details{
