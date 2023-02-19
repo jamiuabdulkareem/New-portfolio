@@ -146,6 +146,21 @@ a:visited {
   background-color: #b133a2;
 }
 
+.heading-animate {
+  animation: headAnimate 2s;
+  transition: headAnimate 0.3s;
+}
+
+@keyframes headAnimate {
+  from {
+    transform: translateX(-16rem);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
 /*******************/
 /* ABOUT SECTION */
 /*******************/
