@@ -1,4 +1,7 @@
 "use strict";
+const btnScrollTo = document.querySelector(".home-link");
+const ctaSection = document.querySelector("#cta");
+
 const myName = "Jamiu Williams AA.";
 let i = 0;
 // console.log(myName.length);
@@ -16,3 +19,9 @@ typing();
 
 // calling AOS scrolling animation
 AOS.init();
+
+// smooth scrolling
+btnScrollTo.addEventListener("click", function (e) {
+  e.preventDefault();
+  ctaSection.scrollIntoView({ behavior: "smooth" });
+});
