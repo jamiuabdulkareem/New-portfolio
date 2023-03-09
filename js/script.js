@@ -13,3 +13,6 @@ const typing = () => {
 };
 
 typing();
+
+// calling AOS scrolling animation
+AOS.init();

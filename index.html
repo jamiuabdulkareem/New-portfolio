@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/general.css">
   <link rel="stylesheet" href="css/queries.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <title>Portfolio | Jamiu Williams AA.</title>
 </head>
 <body>
@@ -51,8 +52,8 @@
           <h4 class="about-me-header">I build sites That ;</h4>
         </div>
         <div class="about-me-img">
-          <div class="img">
-            <img src="img/jamiu.png" alt="jamiu" class="about-img">
+          <div class="img" >
+            <img src="img/jamiu.png" alt="jamiu" class="about-img" data-asos="fade-down-right">
           </div>
         </div>
         </div>
@@ -128,7 +129,7 @@
   </section>
 
   <!-- Project section -->
-  <section id="project">
+  <section id="project" >
     <div class="container">
       <div class="line"></div>
         <h3 class="secondary-heading">Latest project</h3>
@@ -136,8 +137,9 @@
           Please hold tight while we are working on this section our project will be uploaded soon.
         </p>
 
-        <div class="project-card">
-          <div class="card--1">
+        <div class="project-card" data-aos="fade-up"
+        data-aos-anchor-placement="center-center">
+          <div class="card--1" >
             <img src="img/bestKitchen.png" class="project-img" alt="Best kitchen project image">
             <p class="teritiary-heading project-header">Best Kitchen</p>
             <p class="project-text">
@@ -171,7 +173,7 @@
         I will provide the best design and typography that will make huge attractive for websites visitor, I am ready to answer any of your questions.
       </p>
 
-      <div class="about-details">
+      <div class="about-details" data-aos="zoom-in-up">
         <div class="details--1">
           <div class="details-icon">
             <ion-icon name="code-outline" class="icon"></ion-icon>
@@ -327,6 +329,11 @@
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="js/script.js"></script>
+  
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
