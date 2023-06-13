@@ -288,25 +288,25 @@
 
         <div data-aos="zoom-in-right">
           <p class="secondary-heading">Message me</p>
-          <form action="#" method="post" class="message-form">
+          <form class="message-form">
             <div class="form-flex">
               <div>
-                <input type="text" placeholder="Full name">
+                <input id="fName" type="text" placeholder="Full name">
               </div>
               <div>
-                <input type="email" placeholder="Email">
+                <input id="email" type="email" placeholder="Email">
               </div>
             </div>
 
             <div>
-              <input type="text" placeholder="Subject">
+              <input id="subject" type="text" placeholder="Subject">
             </div>
 
             <div>
-              <textarea name="#" id="" cols="30" rows="5" placeholder="Message..."></textarea>
+              <textarea id="msg" cols="30" rows="5" placeholder="Message..."></textarea>
             </div>
             <div>
-              <button class="btn">Send message</button>
+              <button class="btn ctaBtn">Send message</button>
             </div>
           </form>
         </div>
@@ -330,6 +330,8 @@
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <!-- <script src="https://cdn.tailwindcss.com"></script> -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js">
+  </script>
   <script src="js/script.js"></script>
 
 </body>
