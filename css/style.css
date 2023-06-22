@@ -253,7 +253,7 @@ a:visited {
 
 .project-section {
   padding: 4.8rem 0 9.6rem 0;
-  border-top: 2px solid black;
+  /* border-top: 2px solid black; */
 }
 
 .project-card {
