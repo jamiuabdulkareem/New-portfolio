@@ -111,8 +111,8 @@ a:visited {
 .home-section {
   text-align: center;
   margin-top: 10rem;
-  background-size: 100vh;
-  padding-bottom: 18.8rem;
+  /* height: 100vh; */
+  padding: 4.8rem 0 9.6rem 0;
 }
 
 .name {
@@ -250,6 +250,11 @@ a:visited {
 /*******************/
 /* PROJECT SECTION */
 /*******************/
+
+.project-section {
+  padding: 4.8rem 0 9.6rem 0;
+  border-top: 2px solid black;
+}
 
 .project-card {
   display: grid;
